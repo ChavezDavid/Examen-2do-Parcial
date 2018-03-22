@@ -13,7 +13,7 @@
         <Button x:Name="btnEfecto" Content="Efecto" HorizontalAlignment="Left" Margin="90,38,0,0" VerticalAlignment="Top" Width="75" Click="btnEfecto_Click"/>
         <Slider x:Name="sldFactor" HorizontalAlignment="Left" Margin="10,76,0,0" VerticalAlignment="Top" Width="497" Maximum="1" Value="0.5" ValueChanged="sldFactor_ValueChanged" IsEnabled="False"/>
         <Button x:Name="btnDelay" Content="Delay" HorizontalAlignment="Left" Margin="170,38,0,0" VerticalAlignment="Top" Width="75" Click="btnDelay_Click" IsEnabled="False"/>
-        <Slider x:Name="sldDelay" HorizontalAlignment="Left" Margin="10,103,0,0" VerticalAlignment="Top" Width="496" Minimum="50" Maximum="5000" IsDirectionReversed="True" ValueChanged="sldDelay_ValueChanged" RenderTransformOrigin="0.5,0.5" IsEnabled="False" Value="500">
+        <Slider x:Name="sldDelay" HorizontalAlignment="Left" Margin="10,131,0,0" VerticalAlignment="Top" Width="496" Minimum="50" Maximum="5000" IsDirectionReversed="True" ValueChanged="sldDelay_ValueChanged" RenderTransformOrigin="0.5,0.5" IsEnabled="False" Value="500">
             <Slider.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform ScaleX="-1"/>
@@ -23,8 +23,10 @@
                 </TransformGroup>
             </Slider.RenderTransform>
         </Slider>
-        <Slider x:Name="sldAtenuante" HorizontalAlignment="Left" Margin="10,177,0,0" VerticalAlignment="Top" Width="497" Maximum="1" Value="0.5" ValueChanged="sldAtenuante_ValueChanged" IsEnabled="False"/>
-        <Button x:Name="btnDelayAtenuado" Content="Delay Atenuado" HorizontalAlignment="Left" Margin="214,204,0,0" VerticalAlignment="Top" Width="91" Click="btnDelayAtenuado_Click"/>
+        <Slider x:Name="sldAtenuante" HorizontalAlignment="Left" Margin="10,196,0,0" VerticalAlignment="Top" Width="497" Maximum="1" Value="0.5" ValueChanged="sldAtenuante_ValueChanged" IsEnabled="False"/>
+        <Button x:Name="btnDelayAtenuado" Content="Delay Atenuado" HorizontalAlignment="Left" Margin="214,223,0,0" VerticalAlignment="Top" Width="91" Click="btnDelayAtenuado_Click"/>
+        <Label Content="Delay" HorizontalAlignment="Left" Margin="10,103,0,0" VerticalAlignment="Top"/>
+        <Label Content="Volumen Delay" HorizontalAlignment="Left" Margin="10,165,0,0" VerticalAlignment="Top" RenderTransformOrigin="-1.763,-0.154"/>
 
     </Grid>
 </Window>
